@@ -6,7 +6,7 @@ let linkks = document.querySelector(".body .navBar .hidden .linkks");
 // l;
 btn.addEventListener("click", () => {
   if (!linkks.classList.contains("hide")) {
-    linkks.style.left = "-464px";
+    linkks.style.left = "-466px";
     linkks.classList.add("hide");
   } else {
     linkks.style.left = "200px";

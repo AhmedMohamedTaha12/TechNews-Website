@@ -66,6 +66,7 @@ body {
   /* background-color: blueviolet; */
 }
 .body .top .left {
+  /* width: 50%; */
 }
 .body .top .left img {
   width: 100%;
@@ -722,9 +723,20 @@ h6 {
 /* !end 790px */
 /* !start 576px */
 @media (max-width: 576px) {
+    body{
+      /* overflow-x:hidden; */
+      
+    }
+    .body{
+      width: 90%;
+      overflow-x:hidden;
+
+    }
   .navBar {
     /* background-color: rgb(255, 255, 255); */
-    width: 108%;
+    width: 100%;
+    /* overflow-x:hidden; */
+
   }
   .body .navBar .links {
     width: 70%;
@@ -739,24 +751,25 @@ h6 {
     position: absolute;
   }
   .body .navBar .hidden .linkks {
-    background-color: rgba(0, 0, 0, 0.91);
+    background-color: rgba(0, 0, 0, 0.969);
     position: absolute;
     /* display: block; */
     top: 22px;
     left: 418px;
-    height: 466px;
-    width: 514px;
+    height:92vh;
+    width: 570px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     transition: all 0.8s;
+    padding: 10px 0px;
     
   }
   .body .navBar .hidden .linkks a {
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 28px;
     transition: all 0.8s;
   }
   .body .navBar .hidden .linkks a:hover {
@@ -767,6 +780,7 @@ h6 {
   }
   .body .top {
     height: 1000px;
+    margin-bottom: 20px;
   }
   .body .top .left .text {
     display: flex;
