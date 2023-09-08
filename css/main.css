@@ -736,16 +736,18 @@ h6 {
     /* background-color: rgb(255, 255, 255); */
     width: 100%;
     /* overflow-x:hidden; */
+    position: relative;
+
 
   }
   .body .navBar .links {
     width: 70%;
     display: none;
+
   }
   .body .navBar .hidden {
     width: 10%;
     display: block;
-    position: relative;
   }
   .body .navBar .hidden i {
     position: absolute;
@@ -754,10 +756,10 @@ h6 {
     background-color: rgba(0, 0, 0, 0.969);
     position: absolute;
     /* display: block; */
-    top: 22px;
-    left: 418px;
+    top: 70px;
+    left: 666px;
     height:92vh;
-    width: 570px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
